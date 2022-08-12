@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.qq{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right top  ,dodgerblue , violet, dodgerblue , violet ,violet); 
+    padding-top: 60px;
+}
+.login{
+    background-color: rgba(255, 255, 255, 0.073);
+    width: 300px;
+    height: 440px;
+    margin: auto;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+    transform: translateY(35px);
+    font-weight: 900;
+    font-size: 35px;
+    color: fuchsia;
+}
+.inp{
+    width: 270px;
+    margin-left: 10px;
+    margin-top: 60px;
+    border-radius: 6px;
+    border-color: white;
+    background-color: rgba(0, 255, 255, 0);
+    color: white;
+    outline: none;
+
+}
+.inp2{
+    width: 270px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border-radius: 6px;
+
+    border-color: white;
+    background-color: rgba(0, 255, 255, 0);
+    outline: none;
+}
+
+.mm{
+    width: 150px;
+    height: 150px;
+    border: 3px solid fuchsia;
+    margin-top: 45px;
+    border-radius: 15px;
+    animation-iteration-count: infinite;
+    animation-name: mm;
+    animation-duration: 5s;
+    margin-left: 65px;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    display: flex;
+    
+   
+
+
+    
+}
+.div{
+    display: flex;
+    position: fixed;
+}
+@keyframes mm2 {
+    to{
+        transform: rotate(360deg);
+    }
+}
+.mm2{
+    width: 150px;
+    height: 150px;
+    border: 3px solid fuchsia;
+    margin-top: 45px;
+    border-radius: 15px;
+    animation-iteration-count: infinite;
+    animation-name: mm2;
+    animation-duration: 4.5s;
+    margin-left: 65px;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    display: flex;
+    position: absolute;
+}
+.m{ width: 150px;
+    height: 150px;
+    background:  linear-gradient(to right top ,rgba(0, 0, 255, 0.411) , rgba(238, 130, 238, 0.57));
+    border-radius: 15px;
+   
+    animation-iteration-count: infinite;
+    animation-name: other;
+    animation-duration: 2s;
+    margin-top: 150px;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    margin-left: 225px;
+   
+}
+
+
+.circle{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+
+    width: 400px;
+    height: 400px;
+    background: #fff5;
+    border-radius: 50%;
+    animation: circle 1.5s linear infinite;
+    transform: scale(0);
+}
+@keyframes circle {
+    to{
+        transform: scale(0.50);
+        opacity: 0;
+    }
+}
+
+
+
+
+.oiu{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    
+    height: 150px;
+    background: linear-gradient(to right top ,rgba(0, 0, 255, 0.411) , rgba(238, 130, 238, 0.57));
+   
+    animation-iteration-count: infinite;
+    animation-name: key;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    margin-left: 455px;
+    transform: translateY(-350px);
+    margin-top: 30px;
+}
+   
+
+
+    
+@keyframes mm {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+@keyframes other {
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: translateY(-150px);
+    }
+    
+}
+@keyframes key {
+    from{
+        transform: translateY(-550px);
+    }
+    to{
+    }
+}
+
